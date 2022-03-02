@@ -1,0 +1,296 @@
+.main{
+    background-color:	#F5F5DC;
+}
+.main .top{
+    border-radius: 30px;
+    background: url("image/yone-yasuo.png");
+    height: 400px; width: 1519px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .menu .nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+.main .menu li{
+    float: left;
+}
+.main .menu li a{
+    font-family:"Lantinghei SC","Microsoft Yahei",宋体,arial,sans-serif;
+    font-size: 20px;
+    display: block;
+    color: #000;
+    padding: 14px 160px;
+    text-align: center;
+    text-decoration: none;
+}
+.main .menu li a:hover{
+    transform: scale(1.3);
+    border-radius: 20px;
+    background-color:rgb(255, 181, 197);
+    color: white;
+}
+.introduce{
+    border-radius: 30px;
+    background-color: rgb(255, 181, 197);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.8);
+    width: 1519;
+    height: 345px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.introduce #image1 {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: auto;
+    float: left;
+}
+.introduce #image1:hover{
+    transform: scale(1.01);
+}
+.introduce #image2 {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: auto;
+    float: right;
+}
+.introduce #image2:hover {
+    transform: scale(1.01);
+}
+.introduce .champion{
+    padding: 0 60px;
+    text-align: left;
+    width: 329px;
+    height: 329px;
+    font-family: 苹方,楷体,"Lantinghei SC","Microsoft Yahei",宋体,arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    text-indent: 2em;
+}
+.introduce #title{
+    text-align: center;
+}
+.tu3{
+    border-radius: 30px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.8);
+    background: url("image/Spirit-Blossom.jpg");
+    width: 1519;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.vd{
+    padding-top: 100px;
+    width: 500px;
+    height: 666px;
+    padding-left: 250px;
+    float: left;
+}
+
+
+
+.main2{
+    position:relative;
+    width: 1519px;
+    height: 800px;
+}
+.main2 #container{
+    width: 1519px;
+    height: 800px;
+    overflow: hidden;
+}
+.main2 #skin{
+    width: 10000px;
+    animation: switch 9s ease-out infinite;
+}
+.main2 #skin > img{
+    float: left;
+    width: 1519px;
+    height: 800px;
+}
+@keyframes switch{
+    0%,25%{
+        margin-left: 0;
+    }
+    35%,60%{
+        margin-left: -1519px;
+    }
+    70%,100%{
+        margin-left: -3038px;
+    }
+}
+
+.main2 .first-1{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 290px;
+    color: #fff;
+    z-index: 3;
+}
+.main2 .first-1 .tags{
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+}
+.main2 .first-1 .tags span {
+    float: left;
+    width: 35px;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 5px;
+    text-align: center;
+    background: #00a483;
+    border-radius: 5px;
+}
+.main2 .first-1 .space{
+    height: 100px;
+}
+.main2 .first-1 .stat{
+    margin-top: 25px;
+    height: 90px;
+    width: 150px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.main2 .first-1 .stat dt{
+    float: left;
+    width: 40%;
+    margin-bottom: 5px;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+}
+.main2 .first-1 .stat dd{
+    float: left;
+    width: 60%;
+    margin: 2px 0 7px;
+    height: 12px;
+    background: #363c3c;
+    display: block;
+    margin-inline-start: 40px;
+}
+.main2 .first-1 .stat .up{
+    display: block;
+    height: 12px;
+    font-style: italic;
+}
+.main2 .first-1 .stat .up1{
+    background: #f2c500;
+}
+.main2 .first-1 .stat .up2 {
+    background: #f59d00;
+}
+.main2 .first-1 .stat .up3{
+    background: #2c97de;
+}
+.main2 .first-1 .stat .up4{
+    background: #1eca6b;;
+}
+.main2 .sbg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 800px;
+    z-index: 2;
+    background: #000;
+    opacity: .6;
+}
+.main2 .content{
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    width: 600px;
+    height: 250px;
+    z-index: 2;
+    color: #fff;
+    font-family: 苹方,楷体,"Lantinghei SC","Microsoft Yahei",宋体,arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+
+.infoleftcont {
+    float: left;
+    width: 63%;
+}
+.infoleftcont #infotitle{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 47px 0 20px;
+    font-size: 24px;
+    color: #338c7a;
+    position: relative;
+}
+.infoleftcont .infoskill{
+    width: 1000px;
+    height: 150px;
+    padding: 1%;
+    float: left;
+}
+.infoleftcont h2{
+    margin: 0;
+}
+.infoleftcont .left{
+    float: left;
+    width: 70px;
+}
+.infoleftcont .right{
+  
+    float: left;
+    margin: 0 0 0 5px; width: 900px;
+}
+.infoleftcont .right span{
+    font-size: 15px;
+    font-family: 苹方,楷体,"Lantinghei SC","Microsoft Yahei",宋体,arial,sans-serif;
+}
+
+.infoleftcont .infoskill .skillicon{
+    margin-left: 2%;
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+.infoleftcont .arttips{
+    padding: 20px 30px 10px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+    background: #fff;
+    display: block;
+}
+.infoleftcont .arttips dl{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.infoleftcont .arttips .borlineX{
+    border-bottom: 1px solid #eee;
+}
+.infoleftcont .arttips dt{
+    font-size: 15px;
+    font-weight: 700;
+    color: #338c7a;
+    padding-bottom: 8px;
+}
